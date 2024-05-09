@@ -1,0 +1,12 @@
+.inner-banner {
+	background:transparent url(../img/inner-banner.jpg) center top no-repeat;
+	background-size: cover;
+	padding-top: 238px;
+	padding-bottom: 80px;
+	h2 {margin: 0;font-family: 'Montserrat';color: #fff;font-weight: bold;font-size: 50px;letter-spacing: .02em;}
+	.breadcumb {margin-top: 7px;
+		a {color: #ec9a5d;font-family: 'Poppins';font-weight: 500;font-size: 13px;}
+		span.sep {color: #fff;font-size: 13px;margin-left: 13px;margin-right: 9px;}
+		span.name {color: #fff;font-family: 'Poppins';font-size: 13px;}
+	}
+}

@@ -1,0 +1,14 @@
+.why-choose-us {
+	background: #F2F2F2 url(../img/why-choose-us-bg.jpg) center left no-repeat;
+	padding-top: 95px;
+	padding-bottom: 90px;
+	.title {margin-bottom: 22px;
+		h3 {color: #242424;font-family: 'Montserrat';font-weight: bold;margin: 0;font-size: 34px;}
+		.line {display: inline-block;width: 55px;height: 2px;background:#ec9a5d;}
+		p {color: #7d7d7d;font-family: 'Lato';font-weight: normal;font-size: 17px;line-height: 28px;margin: 0;margin-top: 10px;}
+	}
+	ul.checkbox, ul.checkbox li {margin: 0;padding: 0;list-style: none;}
+	ul.checkbox li {color: #242424;font-size: 17px;line-height: 34px;letter-spacing: .02em;}
+	ul.checkbox li + li {margin-top: 3px;}
+	ul.checkbox li img {margin-right: 18px;}
+}

@@ -1,0 +1,17 @@
+.welcome-section {
+	background:#ec9a5d;
+	padding-top: 65px;
+	padding-bottom: 82px;
+	.welcome-text {
+		.tag-line {font-family: 'Poppins';color: #A13D36;font-weight: 600;text-transform: uppercase;letter-spacing: 0;margin-bottom: 3px;
+			&:after {content: '';width: 60px;height: 2px;display: inline-block;background:#fff;margin-left: 27px;}
+		}
+		.title {color: #fff;font-family: 'Poppins';font-weight: 500;font-size: 22px;letter-spacing: 0;line-height: 30px;margin: 0;}
+	}
+	.what-we-do-content {
+		margin-left: -30px;
+		.label {color: #fff;text-transform: uppercase;font-family: 'Poppins';font-size: 16px;font-weight: 600;background: #A13D36;padding: 10px 19px;border-radius: 0;margin-bottom: 9px;display: inline-block;}
+		a {color: #fff;font-family: 'Lato';font-style: italic;font-size: 20px;letter-spacing: .03em;line-height: 30px;}
+		span.sep {color: #fff;font-family: 'Lato';font-style: italic;line-height: 30px;margin-left: 7px;}
+	}
+}

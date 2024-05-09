@@ -1,0 +1,55 @@
+.call-to-action {
+	background:#a13d36;
+	.title-info {
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			width: 1000000px;
+			background:#8F312B;
+		}
+		.inner {position: relative;z-index: 9;padding-top: 39px;padding-bottom: 30px;
+			h3, p {margin: 0;}
+			h3 {color: #fff;font-family: 'Montserrat';font-weight: 600;font-size: 28px;}
+			p {color: #fff;font-family: 'Lato';font-style: italic;font-size: 26px;margin-top: 3px;}
+		}
+	}
+	.phone-info {padding: 36px 0;padding-left: 35px;}
+	.single-phone-info {display: inline-block;vertical-align: middle;
+		+ .single-phone-info {margin-left: 60px;}
+		h4, p {margin: 0;}
+		h4 {color: #fff;font-family: 'Montserrat';font-weight: 500;font-size: 24px;}
+		p {color: #fff;font-family: 'Montserrat';font-weight: bold;font-size: 30px;margin-top: 4px;}
+		.or {display: inline-block;width: 55px;height: 55px;border-radius: 50%;font-family: 'Montserrat';font-size: 20px;font-weight: 500;text-transform: uppercase;line-height: 55px;position: relative;color: #fff;text-align: center;background:#8F312B;
+			&:before, &:after {content: '';width: 1px;height: 23px;position: absolute;left: 50%;background:#8F312B;}
+			&:before {top: 100%;}
+			&:after {bottom: 100%;}
+		}
+		a {display: inline-block;border: 1px solid #fff;border-radius: 30px;font-size: 18px;font-family: 'Montserrat';font-weight: 600;color: #fff;text-transform: uppercase;padding: 6px 38px;transition: all .4s ease;
+			&:hover {background: #fff;color: #A13D36;}
+		}
+	}
+}
+
+.call-to-action-two {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background:#FFFFFF url(../img/call-to-action-2-bg.png) bottom right no-repeat;
+	h3 {margin: 0;font-family: 'Poppins';font-size: 28px;color: #242424;line-height: 40px;font-weight: normal;
+		span {color: #A13D36;}
+	}
+	.line {display: block;width: 84px;height: 2px;background:#A13D36;margin-top: 20px;margin-bottom: 50px;}
+	ul.list-item {
+		&, li {margin: 0;padding: 0;list-style: none;}
+		li + li {margin-top: 20px;}
+		li {color: #242424;font-family: 'Lato';font-size: 17px;line-height: 1em;padding-left: 30px;position: relative;
+			i {color: #EC9A5D;position: absolute;top: 50%;left: 0;transform: translateY(-50%);}
+		}
+	}
+	a.get-qoute-btn {width: 142px;height: 41px;background:#A13D36;color: #fff;text-transform: uppercase;font-size: 14px;display: block;font-family: 'Montserrat';font-weight: 600;line-height: 41px;transition: all .4s ease;text-align: center;margin-top: 40px;
+		&:hover {color: #fff;background: #242424;}
+	}
+}
